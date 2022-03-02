@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+html,
+body {
+    overflow: hidden;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100vh;
+    background-color:#001a34;
+}
+
+main {
+    transform: scale(0.1);
+    padding-left: 78px;
+    padding-top: 4009px;
+}
+
+.base{
+    width: 3900px;
+    height: 1299px;
+    background-color:dodgerblue ;
+    display: flex;
+    backdrop-filter: blur(40px);
+    position: absolute;
+    margin: auto;
+    left: -1866px;
+    top: 2855px;
+    transform: rotate(0deg);
+    color:dodgerblue ;
+    z-index: 9;
+    border-radius: 56px;
+   }
+
+.m1{
+    width: 990px;
+    height: 1709px;
+    background-color: darkred;
+    background-image: linear-gradient(to bottom  , #262626,darkred);
+    display: flex;
+    backdrop-filter: blur(40px);
+    position: absolute;
+    margin: auto;
+    left: -1350px;
+    top: 1295px;
+    transform: rotate(0deg);
+    color: darkred;
+    z-index: 9;
+    border-radius: 500px 500px 250px 250px;
+    
+    box-shadow: inset -5px 5px 10px, inset -7px 5px 5px -5px
+            rgba(255, 255, 255, 0.4),
+        inset -10px -35px 8px -25px rgba(0, 0, 0, 0.3),
+        inset -14px 0px 80px -5px rgba(0, 0, 0, 0.3);
+}
+
+.m2{
+    width: 990px;
+    height: 1959px;
+    background-color: darkred;
+    background-image: linear-gradient(to bottom, #262626,darkred);
+    display: flex;
+    backdrop-filter: blur(40px);
+    position: absolute;
+    margin: auto;
+    left: 50px;
+    top: 1024px;
+    transform: rotate(0deg);
+    color: darkred;
+    z-index: 9;
+    border-radius: 500px 500px 250px 250px;
+    
+    box-shadow: inset -5px 5px 10px, inset -7px 5px 5px -5px
+            rgba(255, 255, 255, 0.4),
+        inset -10px -35px 8px -25px rgba(0, 0, 0, 0.3),
+        inset -14px 0px 80px -5px rgba(0, 0, 0, 0.3);
+}
+.m3{
+    width: 990px;
+    height: 2709px;
+    background-color: green;
+    background-image: linear-gradient(to bottom , #262626,darkred);
+    display: flex;
+    backdrop-filter: blur(40px);
+    position: absolute;
+    margin: auto;
+    left: -1050px;
+    top: -125px;
+    transform: rotate(0deg);
+    color: green;
+    z-index: -8;
+    border-radius: 500px 500px 250px 250px;
+    
+    box-shadow: inset -5px 5px 10px, inset -7px 5px 5px -5px
+            rgba(255, 255, 255, 0.4),
+        inset -10px -35px 8px -25px rgba(0, 0, 0, 0.3),
+        inset -14px 0px 80px -5px rgba(0, 0, 0, 0.3);
+}
+
+.m4{
+    width: 990px;
+    height: 2709px;
+    background-color: green;
+    display: flex;
+    background-image: linear-gradient(to bottom, #262626,darkred);
+    backdrop-filter: blur(40px);
+    position: absolute;
+    margin: auto;
+    left: 350px;
+    top: 225px;
+    transform: rotate(0deg);
+    color: #262626;
+    z-index: -8;
+    border-radius: 500px 500px 250px 250px;
+    
+    box-shadow: inset -5px 5px 10px, inset -7px 5px 5px -5px
+            rgba(255, 255, 255, 0.4),
+        inset -10px -35px 8px -25px rgba(0, 0, 0, 0.3),
+        inset -14px 0px 80px -5px rgba(0, 0, 0, 0.3);
+}
+
+.m5{
+    width: 990px;
+    height: 2709px;
+    background-color: wheat;
+    background-image: linear-gradient(to bottom, #262626,darkred);
+    display: flex;
+    backdrop-filter: blur(40px);
+    position: absolute;
+    margin: auto;
+    left: -250px;
+    top: -825px;
+    transform: rotate(0deg);
+    color: #262626;
+    z-index: -9;
+    border-radius: 500px 500px 250px 250px;
+    
+    box-shadow: inset -5px 5px 10px, inset -7px 5px 5px -5px
+            rgba(255, 255, 255, 0.4),
+        inset -10px -35px 8px -25px rgba(0, 0, 0, 0.3),
+        inset -14px 0px 80px -5px rgba(0, 0, 0, 0.3);
+}
+
+.water1{
+    width: 750px;
+    height: 2709px;
+    background-color:dodgerblue;
+    display: flex;
+    backdrop-filter: blur(40px);
+    position: absolute;
+    margin: auto;}
